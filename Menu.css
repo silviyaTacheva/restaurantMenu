@@ -5,12 +5,13 @@ header {
     color: teal;
     text-align: center;
     border: dotted teal 5px;
-    width: 40% ;
-    height: 200px;
+    border-radius: 50%;
+    width: 750px ;
+    height: 250px;
     margin: auto;
 }
 header>h1,header>h3 {
-    margin: 0%;
+    margin: 0;
 }
 header>h1{
     font-size: 70px;
@@ -21,73 +22,61 @@ header>h3{
     padding-bottom: 35px;
 }
 
-body{
-
-
+section#snacks, section#burgers, section#dishes, section#desserts {
+    width: 50%;
+    margin-top: 20px;
+    margin-left: 550px;
 }
 
 p {
     font-family: 'Stint Ultra Expanded', cursive;
     font-size: 100%;
     font-weight: bold;
+    display: inline-block;
 }
 
-#meal {
-    float: left;
+.meal {
+    text-align: left;
     width: 40%;
 }
- #price {
-     float: right;
+ .price {
+     text-align: right;
      width: 40%;
  }
 
-
  h2{
+     font-family: 'Monofett', cursive;
      font-size: 50px;
      text-align: center;
  }
 
-.snacks {
+#snacks {
      max-width: 75%;
-     margin: auto;
-    border: dotted 5px #ef5e5a;
+     color:#ef5e5a
  }
-
-.snacks>h2{
-    font-family: 'Monofett', cursive;
+#snacks>h2{
     color: #ef5e5a;
 }
 
-.burgers {
-    border: dotted 5px olive;
+#burgers {
     max-width: 75%;
-    margin: auto;
+    color:olive;
 }
-
-.burgers>h2{
-    font-family: 'Monofett', cursive;
+#burgers>h2{
     color: olive;
 }
 
-.dishes {
-    border: dotted 5px #EF8D08;
+#dishes {
     max-width: 75%;
-    margin: auto;
+    color:#E46629;
 }
-.dishes>h2{
-    font-family: 'Monofett', cursive;
-    color: #EF8D08;
-}
-
-.desserts {
-    border: dotted 5px #776576;
-    max-width: 75%;
-    margin: auto;
-    /*background-color: #debd29;*/
+#dishes>h2{
+    color: #E46629;
 }
 
-.desserts>h2{
-
-     font-family: 'Monofett', cursive;
+#desserts {
+    color:#776576
+}
+#desserts>h2{
      color: #776576;
  }
